@@ -469,6 +469,7 @@ img {
 }
 .footer-subs {
 }
+
 .footer-subs-title {
   font-weight: 700;
   font-size: 14px;
@@ -477,6 +478,16 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
+.footer-subs-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.footer-subs-group {
+}
 
 .footer-subs-input {
   width: 358px;
@@ -484,8 +495,14 @@ img {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 20px;
   color: rgba(255, 255, 255, 0.6);
+  padding-left: 15px;
+  outline: none;
+}
+
+.footer-subs-input:focus {
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .footer-subs-btn {
@@ -500,6 +517,18 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  border: none;
+  padding: 10px 28px;
+  transition: background var(--time);
+}
+
+.footer-subs-btn:hover,
+.footer-subs-btn:focus {
+  background: #188ce8;
 }
 
 /* Portfolio sectuion */
