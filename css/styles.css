@@ -497,10 +497,12 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.6);
   padding-left: 15px;
+  padding-right: 15px;
   outline: none;
 }
 
-.footer-subs-input:focus {
+.footer-subs-input:focus,
+.footer-subs-input:not(:placeholder-shown) {
   border-color: #ffffff;
   color: #ffffff;
 }
