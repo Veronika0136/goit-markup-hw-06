@@ -575,7 +575,7 @@
           </svg>
         </button>
         <form class="register-form">
-          <strong class="">Залиште свої дані, ми вам передзвонимо</strong>
+          <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
           <div class="register-form-group" role="group">
             <label class="register-form-wrap">
               <span class="register-form-label">Ім'я</span>
@@ -604,11 +604,14 @@
             </label>
           </div>
           <label class="register-form-agreement">
-            <input class="register-checkbox visuaaly-hidden" type="checkbox" name="agreement" />
-            <svg width="16" height="15">
+            <input class="register-checkbox" type="checkbox" name="agreement" />
+            <svg class="register-icon" width="16" height="15">
               <use href=""></use>
             </svg>
-            <span>Погоджуюся з розсилкою та приймаю</span>
+            <span class="register-form-agreement-text"
+              >Погоджуюся з розсилкою та приймаю
+              <a class="register-form-agreement-link" href="">Умови договору</a></span
+            >
           </label>
           <button class="register-form-btn" type="submit">Відправити</button>
         </form>
